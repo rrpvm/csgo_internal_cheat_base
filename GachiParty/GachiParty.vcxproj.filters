@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\features">
+      <UniqueIdentifier>{2424e979-cbc9-4e36-a81b-a7a6274d3a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\features">
+      <UniqueIdentifier>{a592e6a0-62bc-4c61-a855-ccfc71ea2f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\valve_sdk">
+      <UniqueIdentifier>{7cc14dcc-b23a-4987-b2c4-93a3291a376a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\valve_sdk">
+      <UniqueIdentifier>{791e35dd-3e28-459c-8c18-28e8bb902e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\utils">
+      <UniqueIdentifier>{ec3b5f54-16d8-476e-bc71-fe06202f2bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\math">
+      <UniqueIdentifier>{b70a2bf0-5b02-43ce-9c40-9cb2d2989bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\math">
+      <UniqueIdentifier>{e7874737-3c31-4a22-b475-9fb2b798c78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\utils">
+      <UniqueIdentifier>{00d30049-c3c3-4de8-9b4d-2a5d2f0f7c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hooks">
+      <UniqueIdentifier>{03f245df-a54c-4c0e-a10c-5f2c75ff9497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hooks">
+      <UniqueIdentifier>{a89c1ea1-4e30-467a-b4d4-31d434442324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hooks_vmt">
+      <UniqueIdentifier>{7fe80c6c-6aab-40ce-aa70-7dee86482983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hooks\minhook">
+      <UniqueIdentifier>{a4905320-b40d-4fe9-adae-d03c97af5bde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="c_legitbot.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\sdk.cpp">
+      <Filter>Исходные файлы\valve_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\netvars.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\checksum.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\i_material_system.cpp">
+      <Filter>Исходные файлы\valve_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\vector.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Vector2D.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="data_base.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\c_base_entity.cpp">
+      <Filter>Исходные файлы\valve_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="event_manager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\chclient_hook.cpp">
+      <Filter>Исходные файлы\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="client_mode_hook.cpp">
+      <Filter>Исходные файлы\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="model_render_hook.cpp">
+      <Filter>Исходные файлы\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="render_view_hook.cpp">
+      <Filter>Исходные файлы\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\vgui_panel_hook.cpp">
+      <Filter>Исходные файлы\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="convars_hook.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\MinHook.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\MinHook\hook.c">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\MinHook\trampoline.c">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\MinHook\buffer.c">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\MinHook\hde\hde64.c">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\MinHook\hde\hde32.c">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\c_game_trace.cpp">
+      <Filter>Исходные файлы\valve_sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="esp.h">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="c_legitbot.hpp">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_surface.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_panel.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_model_render.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_material_system.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_material.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_client_thinkable.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_client_entity.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_client_engine.h">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_base_client_dll.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_app_system.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\handle_entity.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\debug_overlay.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client_unknown.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client_renderable.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client_networkable.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client_entity_list.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_user_cmd.h">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_input.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_global_vars.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_entity.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\matrix.hpp">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vector.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Vector2D.hpp">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\checksum.hpp">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\netvars.hpp">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="data_base.hpp">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\vmt.hpp">
+      <Filter>Файлы заголовков\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\vmt_l.hpp">
+      <Filter>Файлы заголовков\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\win_modules.hpp">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\IGameEvent.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_game_event_listener.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_game_event_manager.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="event_manager.hpp">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_effects.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_render_view.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_view_setup.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_client_mode.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\base_hook_class.hpp">
+      <Filter>Файлы заголовков\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\chclient_hook.hpp">
+      <Filter>Файлы заголовков\hooks_vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="client_mode_hook.hpp">
+      <Filter>Файлы заголовков\hooks_vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="model_render_hook.hpp">
+      <Filter>Файлы заголовков\hooks_vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="render_view_hook.hpp">
+      <Filter>Файлы заголовков\hooks_vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\vgui_panel_hook.h">
+      <Filter>Файлы заголовков\hooks_vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iconvar.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\convar.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icvar.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="convars_hook.hpp">
+      <Filter>Файлы заголовков\hooks_vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook.h">
+      <Filter>Файлы заголовков\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook\hde\hde32.h">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook\hde\hde64.h">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook\hde\pstdint.h">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook\hde\table32.h">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook\hde\table64.h">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook\buffer.h">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook\MinHook.h">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook\trampoline.h">
+      <Filter>Файлы заголовков\hooks\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_engine_trace.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_game_trace.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\studio.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\i_model_info.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sdk\client_class.hpp">
+      <Filter>Файлы заголовков\valve_sdk</Filter>
+    </None>
+  </ItemGroup>
+</Project>
